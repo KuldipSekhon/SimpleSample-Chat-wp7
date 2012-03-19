@@ -1,0 +1,5 @@
+This sample demonstrates how to make simple Chat based on QuickBlox services.
+
+It allows to get all chat messages and the possibility to send messages.
+
+Wiki docs - http://wiki.quickblox.com/SimpleSamples-WindowsPhone_ru#SimpleSample-chat_locations-wp7
