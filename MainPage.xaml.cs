@@ -80,41 +80,41 @@ namespace SimpleSample_Chat
         /// </summary>
         /// <param name="Command"></param>
         /// <param name="Result"></param>
-        void QBlox_BackgroundEvent(string Command, object Result)
+void QBlox_BackgroundEvent(string Command, object Result)
+{
+    this.Dispatcher.BeginInvoke(new Action(() =>
+    {
+        switch (Command)
         {
-            this.Dispatcher.BeginInvoke(new Action(() =>
-            {
-                switch (Command)
+            case "Online":
                 {
-                    case "Online":
-                        {
-                            this.waiter.Visibility = Visibility.Collapsed;
-                            //Authenticate sample user (Jane)
-                            this.QBlox.userService.Authenticate("Jane", "123456");                            
-                            break;
-                        }
-                    case "Offline":
-                        {
-                            MessageBox.Show("Connect error");
-                            break;
-                        }
-                    case "geodata":
-                        {
-                            //Get from all geoData all chat Messages
-                            var res = MessageManager.GetChatMessages(QBlox.GeoData);
-                            
-                            //Update chat list
-                            if (res != null && CommonMessages != null)
-                            {
-                                if (res.Count() != CommonMessages.Count())
-                                    for (int i = CommonMessages.Count(); i < res.Count(); i++)
-                                        CommonMessages.Add(res[i]);
-                            }
-                            break;
-                        }
+                    this.waiter.Visibility = Visibility.Collapsed;
+                    //Authenticate sample user (Jane)
+                    this.QBlox.userService.Authenticate("Jane", "123456");                            
+                    break;
                 }
-            }));
+            case "Offline":
+                {
+                    MessageBox.Show("Connect error");
+                    break;
+                }
+            case "geodata":
+                {
+                    //Get from all geoData all chat Messages
+                    var res = MessageManager.GetChatMessages(QBlox.GeoData);
+                            
+                    //Update chat list
+                    if (res != null && CommonMessages != null)
+                    {
+                        if (res.Count() != CommonMessages.Count())
+                            for (int i = CommonMessages.Count(); i < res.Count(); i++)
+                                CommonMessages.Add(res[i]);
+                    }
+                    break;
+                }
         }
+    }));
+}
 
         /// <summary>
         /// Event handler for GeoService Events
@@ -153,11 +153,11 @@ namespace SimpleSample_Chat
         /// <param name="e"></param>
         private void send_Click(object sender, System.EventArgs e)
         {
-            //ID of Sample User
-            int UserID = 578;
+//ID of Sample User
+int UserID = 578;
 
-            //Post new Message 
-            this.QBlox.geoService.AddGeoLocation(new GeoData(UserID, 0, 0, MessageManager.CreateChatMessage(chatField.Text)));        
+//Post new Message 
+this.QBlox.geoService.AddGeoLocation(new GeoData(UserID, 0, 0, MessageManager.CreateChatMessage(chatField.Text)));        
 
             this.Focus();                        
             chatField.Text = String.Empty;

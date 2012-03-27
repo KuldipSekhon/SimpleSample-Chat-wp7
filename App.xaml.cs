@@ -66,11 +66,11 @@ namespace SimpleSample_Chat
         { get; set; }
 
         public App()
-        {
-            
+        {            
             UnhandledException += Application_UnhandledException;         
             InitializeComponent();
             InitializePhoneApplication();
+
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Application.Current.Host.Settings.EnableFrameRateCounter = true;
