@@ -1,14 +1,14 @@
-﻿<xapCache source="J:\QuickBlox\TEMP\SimpleSample-Chat\Bin\Debug\SimpleSample_Chat.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="27.03.2012 17:40:58">
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="27.03.2012 17:40:58" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\Background.png" archivePath="Background.png" lastWriteTime="15.03.2012 15:25:36" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="15.03.2012 15:25:36" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\obj\Debug\SimpleSample-Chat.dll" archivePath="SimpleSample-Chat.dll" lastWriteTime="27.03.2012 17:40:57" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\QuickBloxSDK-Silverlight.dll" archivePath="QuickBloxSDK-Silverlight.dll" lastWriteTime="27.03.2012 17:40:35" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\icons\appbar.cancel.rest.png" archivePath="icons\appbar.cancel.rest.png" lastWriteTime="15.09.2011 15:33:14" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\icons\appbar.check.rest.png" archivePath="icons\appbar.check.rest.png" lastWriteTime="15.09.2011 15:33:14" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\QuickBloxSDK-Silverlight.dll" archivePath="QuickBloxSDK-Silverlight.dll" lastWriteTime="27.03.2012 17:40:35" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="15.03.2012 15:25:36" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="27.03.2012 16:56:59" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\Bin\Debug\icons\appbar.cancel.rest.png" archivePath="icons\appbar.cancel.rest.png" lastWriteTime="15.09.2011 15:33:14" />
-  <file source="J:\QuickBlox\TEMP\SimpleSample-Chat\Bin\Debug\icons\appbar.check.rest.png" archivePath="icons\appbar.check.rest.png" lastWriteTime="15.09.2011 15:33:14" />
+﻿<xapCache source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\Bin\Debug\SimpleSample_Chat.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10.05.2012 15:14:56">
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10.05.2012 15:14:56" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\Background.png" archivePath="Background.png" lastWriteTime="07.05.2012 20:39:43" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="07.05.2012 20:39:43" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\obj\Debug\SimpleSample-Chat.dll" archivePath="SimpleSample-Chat.dll" lastWriteTime="10.05.2012 15:14:55" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\QuickBloxSDK-Silverlight.dll" archivePath="QuickBloxSDK-Silverlight.dll" lastWriteTime="10.05.2012 15:12:38" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\icons\appbar.cancel.rest.png" archivePath="icons\appbar.cancel.rest.png" lastWriteTime="07.05.2012 20:39:43" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\icons\appbar.check.rest.png" archivePath="icons\appbar.check.rest.png" lastWriteTime="07.05.2012 20:39:43" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\QuickBloxSDK-Silverlight.dll" archivePath="QuickBloxSDK-Silverlight.dll" lastWriteTime="10.05.2012 15:12:38" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="07.05.2012 20:39:43" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10.05.2012 14:53:10" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\Bin\Debug\icons\appbar.cancel.rest.png" archivePath="icons\appbar.cancel.rest.png" lastWriteTime="07.05.2012 20:39:43" />
+  <file source="D:\!_QuickBloxForGit_!\SimpleSample-Chat\Bin\Debug\icons\appbar.check.rest.png" archivePath="icons\appbar.check.rest.png" lastWriteTime="07.05.2012 20:39:43" />
 </xapCache>
